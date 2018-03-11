@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>
+            todo Application
+        </title>
+    </head>
+
+    <body id="body1">
+
+        <div>
+            <h2 id="hth1">Add Item</h2>
+            <input type="text" id="tb1">
+            <input type="button" value="Add" id="inButton1">
+        </div>
+
+        <div>
+            <h3 id="hth3">To Do Items</h3>
+            <ul id="incompletdTask">
+                <li>
+                    <input type="checkbox" id="paybillCB" class="cb"> <label for="paybillCB">Pay Bills</label>
+                    <input type="text" id="tb2" disabled>
+                    <button class="edit">Edit</button> <button class="delete">Delete</button>
+                </li>
+
+                <li>
+                        <input type="checkbox" id="goshoppingcb" class="cb"> <label for="goshoppingcb">Go shopping</label>
+                        <input type="text" id="tb3" disabled>
+                        <button class="edit">Edit</button> <button class="delete"> Delete</button>
+                </li>
+
+            </ul>
+        </div>
+
+        <div>
+            <h3 id="hth3">Copleted Items</h3>
+            <ul id="completdTask">
+                <li>
+                    <input type="checkbox" id="cpl1" checked class="cb"> <label for="cpl1">See the doctor</label>
+                    <input type="text" id="tb2" disabled>
+                    <button class="edit">Edit</button> <button class="delete"> Delete</button>
+                </li>
+            </ul>
+        </div>
+
+        <script type="text/javascript" src="todo.js"></script>
+
+    </body>
+</html>
